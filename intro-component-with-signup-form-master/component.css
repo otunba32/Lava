@@ -1,0 +1,77 @@
+body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+.side1 {
+    display: flex;
+    justify-content: space-between;
+}
+#mid {
+    color: white;
+    margin-left: 300px;
+    margin-top: 180px;
+}
+#mid h2 {
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;   
+}
+#mid p {
+    font-family: poppins;
+
+}
+.second {
+    margin-top: 100px;
+    margin-right: 200px;
+}
+#top {
+    border: none;
+    border-radius: 9px;
+    width: 450px;
+    padding: 15px;
+    text-align: center;
+    font-family: poppins;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    box-shadow: 0px 5px 3px #bf6262;
+    font-size: 12px;
+}
+#orbs {
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+#orbs input {
+    padding: 15px;
+    /* padding-left: 15px; */
+    margin-top: 13px;
+    border-radius: 7px;
+    border: 1;
+    width: 380px;
+    outline: none;
+}
+::placeholder {
+    font-size: larger;
+    padding-left: 6px;
+}
+#orbs button {
+    width: 410px;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 7px;
+    font-size: 12px;
+}
+#orbs a {
+    text-decoration: none;
+    color: hsl(0, 71%, 44%);
+}
+#orbs p {
+    color: gray;
+
+}
+
